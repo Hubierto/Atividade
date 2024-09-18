@@ -1,8 +1,9 @@
 from abc import ABC
+from models.endereco import Endereco
 
 class Pessoa(ABC):
 
-    def __init__(self, nome: str, telefone: str, email: str, endereco: str) -> None:
+    def __init__(self, nome: str, telefone: str, email: str, endereco: Endereco) -> None:
         self.nome = nome
         self.telefone = telefone
         self.email = email
@@ -10,10 +11,10 @@ class Pessoa(ABC):
 
     def __str__(self) -> str:
         return  (
-                 f"Nome: {self.nome}"
-                 f"telefone: {self.telefone}"
-                 f"E-mail: {self.email}"
-                 f"Endereço: {self.endereco}")
+                 f"\nNome: {self.nome}"
+                 f"\ntelefone: {self.telefone}"
+                 f"\nE-mail: {self.email}"
+                 f"\nEndereço: {self.endereco}")
        
 
  

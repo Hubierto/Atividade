@@ -14,6 +14,5 @@ class Medico(Funcionario):
         return resultado
 
     def __str__(self) -> str:
-        return (
-                f"{super().__str__()}"   
-                f"\nCRM: {self.crm}"  )
+        return (f"super().__str__()"
+                f"\nCRM: {self.crm}")
