@@ -18,15 +18,7 @@ class Funcionario(Fisica, ABC):
 
     def __str__(self) -> str:
         return (f"{super().__str__()}"
-                f"\nNome: {self.nome}" 
-                f"\nTelefone: {self.telefone}" 
-                f"\nE-mail: {self.email}"
-                f"\nEndereço: {self.endereco}"  
-                f"\nCPF: {self.cpf}"   
-                f"\nRG: {self.rg}"    
-                f"\nData de nascimento: {self.dataNascimento}"    
-                f"\nSexo: {self.sexo}"
                 f"\nMatricula: {self.matricula}"
                 f"\nSetor: {self.setor}"
-                f"\nSalário: {self.salario}")
-    
+                f"\nSalário: {self.salario}"
+                f"\nSalário final: {self.salario_final()}")
