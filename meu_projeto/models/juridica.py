@@ -9,10 +9,6 @@ class Juridica(Pessoa):
    def __str__(self) -> str:
       return(
             f"{super().__str__()}"
-            f"\nNome: {self.nome}" 
-            f"\nTelefone: {self.telefone}" 
-            f"\nE-mail: {self.email}"
-            f"\nEndereço: {self.endereco}"
             f"\nCnpj: {self.cnpj}"
             f"\nInscrição Estadual: {self.inscricaoEstadual}"
             ) 

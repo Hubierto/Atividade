@@ -13,10 +13,6 @@ class Fisica(ABC, Pessoa):
 
     def __str__(self) -> str:
         return (f"{super().__str__()}"
-                f"\nNome: {self.nome}" 
-                f"\nTelefone: {self.telefone}" 
-                f"\nE-mail: {self.email}"
-                f"\nEndereço: {self.endereco}"  
                 f"\nCPF: {self.cpf}"   
                 f"\nRG: {self.rg}"    
                 f"\nData de nascimento: {self.dataNascimento}"    

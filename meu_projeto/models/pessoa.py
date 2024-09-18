@@ -9,7 +9,7 @@ class Pessoa(ABC):
         self.endereco = endereco
 
     def __str__(self) -> str:
-        return  (f"{super().__str__()}"
+        return  (
                  f"Nome: {self.nome}"
                  f"telefone: {self.telefone}"
                  f"E-mail: {self.email}"
