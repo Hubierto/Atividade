@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from meu_projeto.models.enums.Sexo import Sexo
+from models.enums.Sexo import Sexo
 from models.fisica import Fisica
 from models.enums.setor import Setor
 
