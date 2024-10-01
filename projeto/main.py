@@ -3,6 +3,8 @@ from models.juridica import Juridica
 from models.medico import Medico
 from models.enums.Sexo import Sexo
 from models.enums.setor import Setor
+import sys
+sys.path.append
 
 
 os.system("cls || clear")

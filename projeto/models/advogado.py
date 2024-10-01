@@ -1,5 +1,5 @@
-from meu_projeto.models.enums.Sexo import Sexo
-from meu_projeto.models.enums.setor import Setor
+from models.enums.Sexo import Sexo
+from models.enums.setor import Setor
 from models.funcionario import Funcionario
 
 class Advogado(Funcionario):

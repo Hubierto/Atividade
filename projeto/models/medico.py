@@ -1,5 +1,5 @@
-from meu_projeto.models.enums.Sexo import Sexo
-from meu_projeto.models.enums.setor import Setor
+from models.enums.Sexo import Sexo
+from models.enums.setor import Setor
 from models.funcionario import Funcionario
 
 class Medico(Funcionario):
@@ -14,5 +14,6 @@ class Medico(Funcionario):
         return resultado
 
     def __str__(self) -> str:
-        return (f"super().__str__()"
+        return (
+                f"{super().__str__()}"
                 f"\nCRM: {self.crm}")

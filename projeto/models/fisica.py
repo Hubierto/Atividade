@@ -2,7 +2,7 @@ from models.enums.Sexo import Sexo
 from models.pessoa import Pessoa
 from abc import ABC
 
-class Fisica(ABC, Pessoa):
+class Fisica(Pessoa, ABC):
 
     def __init__(self, nome: str, telefone: str, email: str, endereco: str, cpf: str, rg: str, datanascimento: str, sexo: Sexo) -> None:
         super().__init__(nome, telefone, email, endereco)

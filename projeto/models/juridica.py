@@ -8,7 +8,6 @@ class Juridica(Pessoa):
 
    def __str__(self) -> str:
       return(
-            f"{super().__str__()}"
             f"\nCnpj: {self.cnpj}"
             f"\nInscrição Estadual: {self.inscricaoEstadual}"
             ) 
